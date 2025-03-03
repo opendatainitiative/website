@@ -8,7 +8,7 @@ export default function HomePage() {
       
       <div className="max-w-3/4 mx-auto space-y-12">
         <section className="text-center space-y-6">
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto md:w-full sm:w-1/2">
             Empowering citizens with data-driven insights into government operations, 
             focusing on Northern California's regulatory landscape and policy implementation.
           </p>
