@@ -1,6 +1,8 @@
 ---
 title:  "Medicaid Exposure"
 date:   2025-03-03 8:00 -0800
+author: "Sean Roberts"
+image: 
 description : "California heavily relies on federal Medicaid funding, with federal funds making up more than half of the state's $161 billion Medi-Cal budget"
 ---
 
