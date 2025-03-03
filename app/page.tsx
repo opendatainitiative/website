@@ -14,12 +14,16 @@ export default function HomePage() {
           </p>
         </section>
         
-        {/* New Coming Soon Section */}
+        {/* New Goals Section */}
         <section className="text-center space-y-6">
-          <h2 className="text-2xl font-bold">Coming Soon</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            More consistent content from AI agents doing research, analysis, and posting the results here.
-          </p>
+          <h2 className="text-2xl font-bold">Goals</h2>
+          <ul className="text-xl text-gray-600 max-w-2xl mx-auto list-disc list-inside">
+            <li>Continue to publish a few blog posts every week that cali_doge will tweet on.</li>
+            <li>The cali-doge front page showing latest tweets and join pages are finished.</li>
+            <li>The bones of a workforce page shortly.</li>
+            <li>As research develops, it will show on the cali-doge spend page.</li>
+            <li>Development of an AI research bot soon, followed by refinement, publish, marketing bots. We will oversee instructions and outputs.</li>
+          </ul>
         </section>
       </div>
     </div>
