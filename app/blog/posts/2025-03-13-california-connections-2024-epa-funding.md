@@ -1,3 +1,11 @@
+---
+title: "California Connections to 2024 EPA Funding"
+date: 2025-03-13 08:00:00 -0800
+author: "Sean Roberts"
+image: 
+description: "The Biden administration’s $27 billion Greenhouse Gas Reduction Fund (GGRF) grants, particularly the $20 billion allocated to eight nonprofits, have drawn scrutiny for their rapid distribution and potential conflicts of interest."
+---
+
 # Groups and Individuals in California Tied to 2024 EPA Grant Distributions  
 
 The Biden administration’s $27 billion Greenhouse Gas Reduction Fund (GGRF) grants, particularly the $20 billion allocated to eight nonprofits, have drawn scrutiny for their rapid distribution and potential conflicts of interest. Several California-based organizations are directly or indirectly linked to these grants, either as recipients, partners, or through leadership roles.
