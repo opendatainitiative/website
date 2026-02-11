@@ -4,14 +4,15 @@ import { Metadata } from 'next'
 import BackButton from '@/app/components/BackButton'
 
 type Props = {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params
   const posts = await getAllPosts()
-  const post = posts.find((p) => p.id === params.slug)
+  const post = posts.find((p) => p.id === slug)
 
   if (!post) {
     return {
@@ -25,8 +26,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function BlogPost({ params }: Props) {
+  const { slug } = await params
   const posts = await getAllPosts()
-  const post = posts.find((p) => p.id === params.slug)
+  const post = posts.find((p) => p.id === slug)
 
   if (!post) {
     notFound()
