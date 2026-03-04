@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const WorkPage = () => {
   return (
@@ -27,9 +28,9 @@ const WorkPage = () => {
             </td>
             <td width="33%">
               <h3>ODI WEBSITE</h3>
-              <a href="/">
+              <Link href="/">
                 <Image src="/assets/img/odi-site.png" alt="ODI Website" width={200} height={200} />
-              </a>
+              </Link>
             </td>
           </tr>
           <tr>

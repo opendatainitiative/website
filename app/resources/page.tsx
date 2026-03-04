@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function ResourcesPage() {
   return (
     <div className="container mx-auto px-4 pt-32">
@@ -51,7 +53,7 @@ export default function ResourcesPage() {
           <li><a href="https://www.datacoalition.org/issues/policy-agenda/#management" target="_blank" className="text-blue-600 hover:underline">What is an open data policy for the US Federal government?</a></li>
           <li>How to make an open data policy into federal legislation? <a href="https://oversight.house.gov/issa-introduces-sweeping-open-government-spending-transparency-reforms/" target="_blank" className="text-blue-600 hover:underline">It takes an open government advocate Chairman of the House Committee on Oversight and Government Reform.</a></li>
           <li><a href="https://www.datacoalition.org/issues/data-act/" target="_blank" className="text-blue-600 hover:underline">Implementing an open data policy at the federal level</a></li>
-          <li>Index of existing federal legislation. There are a few new federal open data laws in the works, but the <a href="/blog/legislation-review/2018-03-09-united-states-legislation-review" className="text-blue-600 hover:underline">DATA Act is it right now.</a></li>
+          <li>Index of existing federal legislation. There are a few new federal open data laws in the works, but the <Link href="/blog/legislation-review/2018-03-09-united-states-legislation-review" className="text-blue-600 hover:underline">DATA Act is it right now.</Link></li>
           <li><a href="/assets/doc/ODI_Recommended_Tools.pdf" className="text-blue-600 hover:underline">Government financial transparency tools</a></li>
           <li><a href="/assets/doc/ODI-Best-Practices.pdf" className="text-blue-600 hover:underline">Best practices for operating government financial transparency tools</a></li>
         </ul>
