@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function GovernmentTransparency() {
   return (
@@ -23,7 +24,7 @@ export default function GovernmentTransparency() {
               <h3 className="text-2xl font-bold mb-4">What if everything was this transparent?</h3>
               <p className="text-lg">
                 Government works better with well-informed constituents. In many cases, formal requests are required to get government spending details. We want to eliminate the need for these requests, by putting government finances online. <br />
-                Today, many federal, state, and local governments are lacking quality public financial data. <a href="/blog/2017-12-16-transparency-scorecard" className="text-blue-600 hover:text-blue-800">See our report</a>. Just in the US states, our governments are trillions in debt with little public awareness. <a target="_blank" href="https://www.truthinaccounting.org/news/detail/why-is-truthful-timely-and-transparent-financial-data-important-details" className="text-blue-600 hover:text-blue-800">See the report</a>. To publish the complex web of interconnected financial systems, we need collaborative data standards for data-driven decision making. <a target="_blank" href="https://www.workiva.com/sites/workiva/files/pdfs/thought-leadership/unleashing-power-financial-data-state-local-government-whitepaper-20180314-j40506.pdf" className="text-blue-600 hover:text-blue-800">See the report</a>. A modern government is transparent with online finances.
+                Today, many federal, state, and local governments are lacking quality public financial data. <Link href="/blog/2017-12-16-transparency-scorecard" className="text-blue-600 hover:text-blue-800">See our report</Link>. Just in the US states, our governments are trillions in debt with little public awareness. <a target="_blank" href="https://www.truthinaccounting.org/news/detail/why-is-truthful-timely-and-transparent-financial-data-important-details" className="text-blue-600 hover:text-blue-800">See the report</a>. To publish the complex web of interconnected financial systems, we need collaborative data standards for data-driven decision making. <a target="_blank" href="https://www.workiva.com/sites/workiva/files/pdfs/thought-leadership/unleashing-power-financial-data-state-local-government-whitepaper-20180314-j40506.pdf" className="text-blue-600 hover:text-blue-800">See the report</a>. A modern government is transparent with online finances.
               </p>
             </td>
           </tr>
